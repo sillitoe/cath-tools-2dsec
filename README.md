@@ -4,12 +4,14 @@ Provides a summary of a multiple structure alignment in terms of conservation of
 
 ## Usage
 
-		$ 2DSEC <input alignment file> <output postscript file>
+    $ 2DSEC <input alignment file> <output postscript file>
 
 e.g. the files in the `example` directory were generated with:
 
-		$ ./bin/2DSEC example/alignment1.cora example/alignment1.ps
-  	$ convert alignment1.ps alignment1.png
+    $ ./bin/2DSEC example/alignment1.cora example/alignment1.ps
+    $ convert alignment1.ps alignment1.png
+
+![Example 2DSEC image](/../screenshots/alignment1.png)
 
 ## Multiple Structure Alignment format (CORA)
 
