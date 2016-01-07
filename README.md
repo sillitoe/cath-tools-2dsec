@@ -6,9 +6,9 @@ Provides a summary of a multiple structure alignment in terms of conservation of
 
 	2DSEC <input alignment file> <output postscript file>
 
-e.g.
+e.g. the files in the `example` directory were generated with:
 
-	2DSEC alignment.cora output.ps
+	./bin/2DSEC example/alignment1.cora example/alignment2.ps
 
 
 ## Multiple Structure Alignment format (CORA)
