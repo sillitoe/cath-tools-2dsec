@@ -1,4 +1,4 @@
-# CATH Tools: cath-2dsec
+# CATH Tools: 2DSEC
 
 Provides a summary of a multiple structure alignment in terms of conservation of secondary structures.
 
@@ -11,15 +11,19 @@ e.g. the files in the `example` directory were generated with:
     $ ./bin/2DSEC example/alignment1.cora example/alignment1.ps
     $ convert -rotate 90 -density 300 alignment1.ps -resize 1024x1024 alignment1.png
 
+## Example
+
 ![Example 2DSEC image](/../screenshots/alignment1.png)
 
-## Multiple Structure Alignment format (CORA)
+Note: 2DSEC outputs an image in PostScript. The example above uses the standard ImageMagick tool `convert` to convert this PostScript image to the more widely used PNG. Change the `-resize` parameter for a larger/smaller image.
 
-2DSEC was originally written as an internal tool for the CATH structural classification database. It reads the structural alignments created by our internal structure alignment algorithm (CORA) which adds per-residue and per-alignment position information to the alignment.
+## Alignment Format (CORA)
 
-If you want to use the 2DSEC tool for your own work, you will need to convert your alignments to the CORA format.
+2DSEC was originally written as an internal tool for the [CATH protein structure classification database](http://www.cathdb.info). The algorithm reads the multiple structure alignments (MSA) created by our own alignment algorithm (CORA). This algorithm adds per-residue and per-alignment position information to the alignment which 2DSEC uses to build the schematic figure.
 
-Look in the examples directory for more information, full details below:
+So, if you want to use the 2DSEC tool for your own work, you will need to convert your alignments to the CORA format.
+
+The [example directory](./example) contains live data, see below for the full specification of the alignment format:
 
 
 		Output File Format: CORA Alignment
