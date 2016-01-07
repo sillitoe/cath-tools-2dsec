@@ -9,7 +9,7 @@ Provides a summary of a multiple structure alignment in terms of conservation of
 e.g. the files in the `example` directory were generated with:
 
     $ ./bin/2DSEC example/alignment1.cora example/alignment1.ps
-    $ convert alignment1.ps alignment1.png
+    $ convert -rotate 90 -density 300 alignment1.ps -resize 1024x1024 alignment1.png
 
 ![Example 2DSEC image](/../screenshots/alignment1.png)
 
@@ -82,6 +82,3 @@ Look in the examples directory for more information, full details below:
 			Last Column-2: No. of alpha residues at this position (dddd)
 			Last Column-1: No. of beta residues at this position (dddd)
 			Last Column: Structural Conservation Score (dd)
-
-
-
