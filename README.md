@@ -1,6 +1,6 @@
 # CATH Tools: 2DSEC
 
-Provides a summary of a multiple structure alignment in terms of conservation of secondary structures.
+2DSEC provides a summary of a multiple structure alignment in terms of conservation of secondary structures. It was written by Dr Gabrielle Reeves during her time in the [Orengo Bioinformatics Group](http://www.ucl.ac.uk/orengo-group) at UCL.
 
 ## Usage
 
